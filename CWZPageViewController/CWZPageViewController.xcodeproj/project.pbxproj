@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4DCD8921DEAA66400687265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8911DEAA66400687265 /* main.m */; };
+		A4DCD8951DEAA66400687265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8941DEAA66400687265 /* AppDelegate.m */; };
+		A4DCD8981DEAA66400687265 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8971DEAA66400687265 /* ViewController.m */; };
+		A4DCD89D1DEAA66400687265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DCD89C1DEAA66400687265 /* Assets.xcassets */; };
+		A4DCD8A01DEAA66400687265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DCD89E1DEAA66400687265 /* LaunchScreen.storyboard */; };
+		A4DCD8AB1DEAA66400687265 /* CWZPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8AA1DEAA66400687265 /* CWZPageViewControllerTests.m */; };
+		A4DCD8B61DEAA66400687265 /* CWZPageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8B51DEAA66400687265 /* CWZPageViewControllerUITests.m */; };
+		A4DCD8C51DEAA67C00687265 /* CWZSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8C41DEAA67C00687265 /* CWZSelectView.m */; };
+		A4DCD8C81DEAA69100687265 /* CWZPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8C71DEAA69100687265 /* CWZPageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4DCD8A71DEAA66400687265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DCD8851DEAA66400687265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DCD88C1DEAA66400687265;
+			remoteInfo = CWZPageViewController;
+		};
+		A4DCD8B21DEAA66400687265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DCD8851DEAA66400687265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DCD88C1DEAA66400687265;
+			remoteInfo = CWZPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4DCD88D1DEAA66400687265 /* CWZPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWZPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DCD8911DEAA66400687265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4DCD8931DEAA66400687265 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4DCD8941DEAA66400687265 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4DCD8961DEAA66400687265 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4DCD8971DEAA66400687265 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4DCD89C1DEAA66400687265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4DCD89F1DEAA66400687265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4DCD8A11DEAA66400687265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DCD8A61DEAA66400687265 /* CWZPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWZPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DCD8AA1DEAA66400687265 /* CWZPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWZPageViewControllerTests.m; sourceTree = "<group>"; };
+		A4DCD8AC1DEAA66400687265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DCD8B11DEAA66400687265 /* CWZPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWZPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DCD8B51DEAA66400687265 /* CWZPageViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWZPageViewControllerUITests.m; sourceTree = "<group>"; };
+		A4DCD8B71DEAA66400687265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DCD8C31DEAA67C00687265 /* CWZSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWZSelectView.h; sourceTree = "<group>"; };
+		A4DCD8C41DEAA67C00687265 /* CWZSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWZSelectView.m; sourceTree = "<group>"; };
+		A4DCD8C61DEAA69100687265 /* CWZPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWZPageViewController.h; sourceTree = "<group>"; };
+		A4DCD8C71DEAA69100687265 /* CWZPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWZPageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DCD88A1DEAA66400687265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DCD8A31DEAA66400687265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DCD8AE1DEAA66400687265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4DCD8841DEAA66400687265 = {
+			isa = PBXGroup;
+			children = (
+				A4DCD88F1DEAA66400687265 /* CWZPageViewController */,
+				A4DCD8A91DEAA66400687265 /* CWZPageViewControllerTests */,
+				A4DCD8B41DEAA66400687265 /* CWZPageViewControllerUITests */,
+				A4DCD88E1DEAA66400687265 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DCD88E1DEAA66400687265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DCD88D1DEAA66400687265 /* CWZPageViewController.app */,
+				A4DCD8A61DEAA66400687265 /* CWZPageViewControllerTests.xctest */,
+				A4DCD8B11DEAA66400687265 /* CWZPageViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DCD88F1DEAA66400687265 /* CWZPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4DCD8C61DEAA69100687265 /* CWZPageViewController.h */,
+				A4DCD8C71DEAA69100687265 /* CWZPageViewController.m */,
+				A4DCD8C31DEAA67C00687265 /* CWZSelectView.h */,
+				A4DCD8C41DEAA67C00687265 /* CWZSelectView.m */,
+				A4DCD8931DEAA66400687265 /* AppDelegate.h */,
+				A4DCD8941DEAA66400687265 /* AppDelegate.m */,
+				A4DCD8961DEAA66400687265 /* ViewController.h */,
+				A4DCD8971DEAA66400687265 /* ViewController.m */,
+				A4DCD89C1DEAA66400687265 /* Assets.xcassets */,
+				A4DCD89E1DEAA66400687265 /* LaunchScreen.storyboard */,
+				A4DCD8A11DEAA66400687265 /* Info.plist */,
+				A4DCD8901DEAA66400687265 /* Supporting Files */,
+			);
+			path = CWZPageViewController;
+			sourceTree = "<group>";
+		};
+		A4DCD8901DEAA66400687265 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4DCD8911DEAA66400687265 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4DCD8A91DEAA66400687265 /* CWZPageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DCD8AA1DEAA66400687265 /* CWZPageViewControllerTests.m */,
+				A4DCD8AC1DEAA66400687265 /* Info.plist */,
+			);
+			path = CWZPageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		A4DCD8B41DEAA66400687265 /* CWZPageViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DCD8B51DEAA66400687265 /* CWZPageViewControllerUITests.m */,
+				A4DCD8B71DEAA66400687265 /* Info.plist */,
+			);
+			path = CWZPageViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DCD88C1DEAA66400687265 /* CWZPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DCD8BA1DEAA66400687265 /* Build configuration list for PBXNativeTarget "CWZPageViewController" */;
+			buildPhases = (
+				A4DCD8891DEAA66400687265 /* Sources */,
+				A4DCD88A1DEAA66400687265 /* Frameworks */,
+				A4DCD88B1DEAA66400687265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWZPageViewController;
+			productName = CWZPageViewController;
+			productReference = A4DCD88D1DEAA66400687265 /* CWZPageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4DCD8A51DEAA66400687265 /* CWZPageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DCD8BD1DEAA66400687265 /* Build configuration list for PBXNativeTarget "CWZPageViewControllerTests" */;
+			buildPhases = (
+				A4DCD8A21DEAA66400687265 /* Sources */,
+				A4DCD8A31DEAA66400687265 /* Frameworks */,
+				A4DCD8A41DEAA66400687265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DCD8A81DEAA66400687265 /* PBXTargetDependency */,
+			);
+			name = CWZPageViewControllerTests;
+			productName = CWZPageViewControllerTests;
+			productReference = A4DCD8A61DEAA66400687265 /* CWZPageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4DCD8B01DEAA66400687265 /* CWZPageViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DCD8C01DEAA66400687265 /* Build configuration list for PBXNativeTarget "CWZPageViewControllerUITests" */;
+			buildPhases = (
+				A4DCD8AD1DEAA66400687265 /* Sources */,
+				A4DCD8AE1DEAA66400687265 /* Frameworks */,
+				A4DCD8AF1DEAA66400687265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DCD8B31DEAA66400687265 /* PBXTargetDependency */,
+			);
+			name = CWZPageViewControllerUITests;
+			productName = CWZPageViewControllerUITests;
+			productReference = A4DCD8B11DEAA66400687265 /* CWZPageViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DCD8851DEAA66400687265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = cwz;
+				TargetAttributes = {
+					A4DCD88C1DEAA66400687265 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A4DCD8A51DEAA66400687265 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4DCD88C1DEAA66400687265;
+					};
+					A4DCD8B01DEAA66400687265 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4DCD88C1DEAA66400687265;
+					};
+				};
+			};
+			buildConfigurationList = A4DCD8881DEAA66400687265 /* Build configuration list for PBXProject "CWZPageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4DCD8841DEAA66400687265;
+			productRefGroup = A4DCD88E1DEAA66400687265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DCD88C1DEAA66400687265 /* CWZPageViewController */,
+				A4DCD8A51DEAA66400687265 /* CWZPageViewControllerTests */,
+				A4DCD8B01DEAA66400687265 /* CWZPageViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DCD88B1DEAA66400687265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DCD8A01DEAA66400687265 /* LaunchScreen.storyboard in Resources */,
+				A4DCD89D1DEAA66400687265 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DCD8A41DEAA66400687265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DCD8AF1DEAA66400687265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DCD8891DEAA66400687265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DCD8C81DEAA69100687265 /* CWZPageViewController.m in Sources */,
+				A4DCD8981DEAA66400687265 /* ViewController.m in Sources */,
+				A4DCD8C51DEAA67C00687265 /* CWZSelectView.m in Sources */,
+				A4DCD8951DEAA66400687265 /* AppDelegate.m in Sources */,
+				A4DCD8921DEAA66400687265 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DCD8A21DEAA66400687265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DCD8AB1DEAA66400687265 /* CWZPageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DCD8AD1DEAA66400687265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DCD8B61DEAA66400687265 /* CWZPageViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4DCD8A81DEAA66400687265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DCD88C1DEAA66400687265 /* CWZPageViewController */;
+			targetProxy = A4DCD8A71DEAA66400687265 /* PBXContainerItemProxy */;
+		};
+		A4DCD8B31DEAA66400687265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DCD88C1DEAA66400687265 /* CWZPageViewController */;
+			targetProxy = A4DCD8B21DEAA66400687265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4DCD89E1DEAA66400687265 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DCD89F1DEAA66400687265 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4DCD8B81DEAA66400687265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4DCD8B91DEAA66400687265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DCD8BB1DEAA66400687265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CWZPageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmany.fwdd.CWZPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4DCD8BC1DEAA66400687265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CWZPageViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmany.fwdd.CWZPageViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4DCD8BE1DEAA66400687265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CWZPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmany.fwdd.CWZPageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CWZPageViewController.app/CWZPageViewController";
+			};
+			name = Debug;
+		};
+		A4DCD8BF1DEAA66400687265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CWZPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmany.fwdd.CWZPageViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CWZPageViewController.app/CWZPageViewController";
+			};
+			name = Release;
+		};
+		A4DCD8C11DEAA66400687265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CWZPageViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmany.fwdd.CWZPageViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CWZPageViewController;
+			};
+			name = Debug;
+		};
+		A4DCD8C21DEAA66400687265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CWZPageViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redmany.fwdd.CWZPageViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CWZPageViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DCD8881DEAA66400687265 /* Build configuration list for PBXProject "CWZPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DCD8B81DEAA66400687265 /* Debug */,
+				A4DCD8B91DEAA66400687265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DCD8BA1DEAA66400687265 /* Build configuration list for PBXNativeTarget "CWZPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DCD8BB1DEAA66400687265 /* Debug */,
+				A4DCD8BC1DEAA66400687265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4DCD8BD1DEAA66400687265 /* Build configuration list for PBXNativeTarget "CWZPageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DCD8BE1DEAA66400687265 /* Debug */,
+				A4DCD8BF1DEAA66400687265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4DCD8C01DEAA66400687265 /* Build configuration list for PBXNativeTarget "CWZPageViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DCD8C11DEAA66400687265 /* Debug */,
+				A4DCD8C21DEAA66400687265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DCD8851DEAA66400687265 /* Project object */;
+}
