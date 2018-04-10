@@ -30,7 +30,7 @@
 }
 
 - (instancetype)initWithControllersWithController:(NSArray*)VC andTitles:(NSArray*)titles{
-
+//change
     if ([super init]) {
        
         self.controllers = VC;
