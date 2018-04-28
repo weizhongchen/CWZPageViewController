@@ -46,7 +46,9 @@
     }
     return self;
 }
-//change3
+
+//change2
+
 - (void)addVC:(UIViewController*)vc andIndex:(NSInteger)index{
 //change4
     //change3
