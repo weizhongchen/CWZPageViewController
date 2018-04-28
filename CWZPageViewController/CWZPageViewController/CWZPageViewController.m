@@ -46,7 +46,7 @@
     }
     return self;
 }
-
+//change2
 - (void)addVC:(UIViewController*)vc andIndex:(NSInteger)index{
 
     if (![_scrollV.subviews containsObject:vc.view]) {
