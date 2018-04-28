@@ -48,7 +48,8 @@
 }
 //change2
 - (void)addVC:(UIViewController*)vc andIndex:(NSInteger)index{
-//change3
+//change4
+    //change3
     if (![_scrollV.subviews containsObject:vc.view]) {
        [_scrollV addSubview:vc.view];
         CGRect rect = vc.view.frame;
