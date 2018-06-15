@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261AA23020A54BE500E60597 /* CWZPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8C71DEAA69100687265 /* CWZPageViewController.m */; };
+		261AA23120A54BE500E60597 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8971DEAA66400687265 /* ViewController.m */; };
+		261AA23220A54BE500E60597 /* CWZSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8C41DEAA67C00687265 /* CWZSelectView.m */; };
+		261AA23320A54BE500E60597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8941DEAA66400687265 /* AppDelegate.m */; };
+		261AA23420A54BE500E60597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8911DEAA66400687265 /* main.m */; };
+		261AA23720A54BE500E60597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DCD89E1DEAA66400687265 /* LaunchScreen.storyboard */; };
+		261AA23820A54BE500E60597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DCD89C1DEAA66400687265 /* Assets.xcassets */; };
 		A4DCD8921DEAA66400687265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8911DEAA66400687265 /* main.m */; };
 		A4DCD8951DEAA66400687265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8941DEAA66400687265 /* AppDelegate.m */; };
 		A4DCD8981DEAA66400687265 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DCD8971DEAA66400687265 /* ViewController.m */; };
@@ -36,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		261AA23C20A54BE500E60597 /* CWZPageViewController copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CWZPageViewController copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		261AA23D20A54BE600E60597 /* CWZPageViewController copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CWZPageViewController copy2-Info.plist"; path = "/Users/chenweizhong/Downloads/CWZPageViewController-master-2/CWZPageViewController/CWZPageViewController copy2-Info.plist"; sourceTree = "<absolute>"; };
+		26FCBD41209AB762007A89DC /* CWZPageViewController copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CWZPageViewController copy-Info.plist"; path = "/Users/chenweizhong/Downloads/CWZPageViewController-master-2/CWZPageViewController/CWZPageViewController copy-Info.plist"; sourceTree = "<absolute>"; };
 		A4DCD88D1DEAA66400687265 /* CWZPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWZPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DCD8911DEAA66400687265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4DCD8931DEAA66400687265 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +68,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		261AA23520A54BE500E60597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4DCD88A1DEAA66400687265 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,6 +106,8 @@
 				A4DCD8A91DEAA66400687265 /* CWZPageViewControllerTests */,
 				A4DCD8B41DEAA66400687265 /* CWZPageViewControllerUITests */,
 				A4DCD88E1DEAA66400687265 /* Products */,
+				26FCBD41209AB762007A89DC /* CWZPageViewController copy-Info.plist */,
+				261AA23D20A54BE600E60597 /* CWZPageViewController copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +117,7 @@
 				A4DCD88D1DEAA66400687265 /* CWZPageViewController.app */,
 				A4DCD8A61DEAA66400687265 /* CWZPageViewControllerTests.xctest */,
 				A4DCD8B11DEAA66400687265 /* CWZPageViewControllerUITests.xctest */,
+				261AA23C20A54BE500E60597 /* CWZPageViewController copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +170,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		261AA22E20A54BE500E60597 /* CWZPageViewController copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261AA23920A54BE500E60597 /* Build configuration list for PBXNativeTarget "CWZPageViewController copy" */;
+			buildPhases = (
+				261AA22F20A54BE500E60597 /* Sources */,
+				261AA23520A54BE500E60597 /* Frameworks */,
+				261AA23620A54BE500E60597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CWZPageViewController copy";
+			productName = CWZPageViewController;
+			productReference = 261AA23C20A54BE500E60597 /* CWZPageViewController copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A4DCD88C1DEAA66400687265 /* CWZPageViewController */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4DCD8BA1DEAA66400687265 /* Build configuration list for PBXNativeTarget "CWZPageViewController" */;
@@ -244,11 +281,21 @@
 				A4DCD88C1DEAA66400687265 /* CWZPageViewController */,
 				A4DCD8A51DEAA66400687265 /* CWZPageViewControllerTests */,
 				A4DCD8B01DEAA66400687265 /* CWZPageViewControllerUITests */,
+				261AA22E20A54BE500E60597 /* CWZPageViewController copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		261AA23620A54BE500E60597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261AA23720A54BE500E60597 /* LaunchScreen.storyboard in Resources */,
+				261AA23820A54BE500E60597 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4DCD88B1DEAA66400687265 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,6 +322,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		261AA22F20A54BE500E60597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261AA23020A54BE500E60597 /* CWZPageViewController.m in Sources */,
+				261AA23120A54BE500E60597 /* ViewController.m in Sources */,
+				261AA23220A54BE500E60597 /* CWZSelectView.m in Sources */,
+				261AA23320A54BE500E60597 /* AppDelegate.m in Sources */,
+				261AA23420A54BE500E60597 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4DCD8891DEAA66400687265 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,6 +389,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		261AA23A20A54BE500E60597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CWZPageViewController copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwz.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		261AA23B20A54BE500E60597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CWZPageViewController copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwz.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A4DCD8B81DEAA66400687265 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -491,6 +572,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		261AA23920A54BE500E60597 /* Build configuration list for PBXNativeTarget "CWZPageViewController copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261AA23A20A54BE500E60597 /* Debug */,
+				261AA23B20A54BE500E60597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A4DCD8881DEAA66400687265 /* Build configuration list for PBXProject "CWZPageViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -507,6 +597,7 @@
 				A4DCD8BC1DEAA66400687265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4DCD8BD1DEAA66400687265 /* Build configuration list for PBXNativeTarget "CWZPageViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +606,7 @@
 				A4DCD8BF1DEAA66400687265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4DCD8C01DEAA66400687265 /* Build configuration list for PBXNativeTarget "CWZPageViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +615,7 @@
 				A4DCD8C21DEAA66400687265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

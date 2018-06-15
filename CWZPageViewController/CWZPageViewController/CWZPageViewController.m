@@ -8,6 +8,8 @@
 
 #import "CWZPageViewController.h"
 #import "CWZSelectView.h"
+
+
 @interface CWZPageViewController ()<UIScrollViewDelegate>
 @property(nonatomic,strong)UIScrollView*scrollV;
 @property(nonatomic,strong)NSArray*titls;
@@ -16,8 +18,8 @@
 @property(nonatomic,assign)NSInteger perviousIndex;
 @property(nonatomic,strong)CWZSelectView *selectView;
 @property(nonatomic,assign)CGPoint beginOffset;
-@end
 
+@end
 
 @implementation CWZPageViewController
 
@@ -30,6 +32,7 @@
 }
 
 - (instancetype)initWithControllersWithController:(NSArray*)VC andTitles:(NSArray*)titles{
+  
 //change
     if ([super init]) {
        
