@@ -24,7 +24,7 @@
 @implementation CWZPageViewController
 
 +(instancetype)instanceControllers:(NSArray *)controllers andTitles:(NSArray *)titles{
-
+//22
     NSAssert(controllers.count==titles.count, @"标题控制器不相等");
     
     return [[self alloc] initWithControllersWithController:controllers andTitles:titles];
