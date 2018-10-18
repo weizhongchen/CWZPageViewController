@@ -8,12 +8,7 @@
 
 #import "CWZPageViewController.h"
 #import "CWZSelectView.h"
-//22
-
-//44
-
 //33
-
 @interface CWZPageViewController ()<UIScrollViewDelegate>
 @property(nonatomic,strong)UIScrollView*scrollV;
 @property(nonatomic,strong)NSArray*titls;
