@@ -22,7 +22,7 @@
 @end
 
 @implementation CWZPageViewController
-
+//33
 +(instancetype)instanceControllers:(NSArray *)controllers andTitles:(NSArray *)titles{
 //22
     NSAssert(controllers.count==titles.count, @"标题控制器不相等");
