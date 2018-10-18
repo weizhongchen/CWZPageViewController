@@ -18,7 +18,7 @@
 @property(nonatomic,assign)NSInteger perviousIndex;
 @property(nonatomic,strong)CWZSelectView *selectView;
 @property(nonatomic,assign)CGPoint beginOffset;
-
+//rr
 @end
 //22
 @implementation CWZPageViewController
