@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface CWZPageViewController : UIViewController
 
 +(instancetype)instanceControllers:(NSArray*)controllers andTitles:(NSArray*)titles;

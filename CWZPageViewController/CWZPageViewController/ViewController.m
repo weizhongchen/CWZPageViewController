@@ -22,6 +22,7 @@
         self.view.backgroundColor = [UIColor greenColor];
     }
     NSLog(@"viewDidLoad---%@",self.titleStr);
+    //merge
 }
 
 
