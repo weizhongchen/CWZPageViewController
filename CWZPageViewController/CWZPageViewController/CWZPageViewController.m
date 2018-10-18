@@ -28,7 +28,11 @@
     NSAssert(controllers.count==titles.count, @"标题控制器不相等");
     //444
     return [[self alloc] initWithControllersWithController:controllers andTitles:titles];
+
     //33
+
+    //22
+
 }
 
 - (instancetype)initWithControllersWithController:(NSArray*)VC andTitles:(NSArray*)titles{
