@@ -20,7 +20,7 @@
 @property(nonatomic,assign)CGPoint beginOffset;
 
 @end
-
+//22
 @implementation CWZPageViewController
 //33
 +(instancetype)instanceControllers:(NSArray *)controllers andTitles:(NSArray *)titles{
