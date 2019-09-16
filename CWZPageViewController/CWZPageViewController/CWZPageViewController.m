@@ -8,8 +8,13 @@
 
 #import "CWZPageViewController.h"
 #import "CWZSelectView.h"
+
+//33
+
+
 //22
 //33
+
 @interface CWZPageViewController ()<UIScrollViewDelegate>
 @property(nonatomic,strong)UIScrollView*scrollV;
 @property(nonatomic,strong)NSArray*titls;
@@ -18,11 +23,11 @@
 @property(nonatomic,assign)NSInteger perviousIndex;
 @property(nonatomic,strong)CWZSelectView *selectView;
 @property(nonatomic,assign)CGPoint beginOffset;
-
+//rr
 @end
 //22
 @implementation CWZPageViewController
-
+//33
 +(instancetype)instanceControllers:(NSArray *)controllers andTitles:(NSArray *)titles{
 //22
     NSAssert(controllers.count==titles.count, @"标题控制器不相等");
@@ -125,6 +130,6 @@
 //    [self.view addSubview:_scrollV];
 }
 //ss
-//33
+
 
 @end
